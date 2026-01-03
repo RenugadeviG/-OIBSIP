@@ -67,7 +67,7 @@ input { border-radius: 10px !important; }
 # ---------------------------------------------------
 # Load dataset
 # ---------------------------------------------------
-df = pd.read_csv(r"C:\Users\LENOVO\Downloads\archive (30)\Iris.csv")
+df = pd.read_csv("Iris.csv")
 if 'Id' in df.columns:
     df = df.drop(columns=['Id'])
 
